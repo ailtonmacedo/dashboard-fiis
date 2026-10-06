@@ -11,12 +11,14 @@
     background: #faf9f5;
     color: #1a1a18;
     margin: 0;
-    padding: 32px;
+    padding: 20px;
   }
 
   .wrap {
-    max-width: 1500px;
+    width: 100%;
+    max-width: none;
     margin: 0 auto;
+    box-sizing: border-box;
   }
 
   h1 {
@@ -32,35 +34,81 @@
   }
 
   .table-wrap {
-    overflow-x: auto;
+    width: 100%;
+    overflow-x: visible;
     border-radius: 12px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.06);
   }
 
   table {
     width: 100%;
-    min-width: 1550px;
+    min-width: 0;
     border-collapse: collapse;
+    table-layout: auto;
     background: #fff;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   th {
     text-align: left;
-    padding: 11px 10px;
+    padding: 10px 8px;
     background: #f1efe8;
     font-weight: 600;
     color: #444441;
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     white-space: nowrap;
   }
 
   td {
-    padding: 11px 10px;
+    padding: 10px 8px;
     border-top: 0.5px solid #eceae2;
     white-space: nowrap;
+  }
+
+  @media (max-width: 1600px) {
+    body {
+      padding: 12px;
+    }
+
+    table {
+      font-size: 10px;
+    }
+
+    th {
+      font-size: 8px;
+      padding: 8px 6px;
+    }
+
+    td {
+      padding: 8px 6px;
+    }
+
+    .pill {
+      padding: 3px 7px;
+      font-size: 9px;
+    }
+
+    .tipo {
+      font-size: 9px;
+      padding: 2px 5px;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    table {
+      font-size: 9px;
+    }
+
+    th {
+      font-size: 7.5px;
+      padding: 7px 4px;
+    }
+
+    td {
+      padding: 7px 4px;
+    }
   }
 
   .tk {
