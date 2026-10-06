@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel FIIs — 06/10/2026</title>
+
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #faf9f5;
+    color: #1a1a18;
+    margin: 0;
+    padding: 32px;
+  }
+
+  .wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+
+  .sub {
+    color: #6b6a63;
+    font-size: 13px;
+    margin: 0 0 20px;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  table {
+    width: 100%;
+    min-width: 1550px;
+    border-collapse: collapse;
+    background: #fff;
+    font-size: 12px;
+  }
+
+  th {
+    text-align: left;
+    padding: 11px 10px;
+    background: #f1efe8;
+    font-weight: 600;
+    color: #444441;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 11px 10px;
+    border-top: 0.5px solid #eceae2;
+    white-space: nowrap;
+  }
+
+  .tk {
+    font-weight: 700;
+  }
+
+  .tipo {
+    font-size: 10px;
+    color: #6b6a63;
+    background: #f7f6f2;
+    padding: 3px 7px;
+    border-radius: 999px;
+  }
+
+  .pill {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .sem-dados {
+    color: #888780;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  .card h2 {
+    font-size: 14px;
+    margin: 0 0 12px;
+  }
+
+  .card p,
+  .card li {
+    font-size: 12px;
+    line-height: 1.55;
+    color: #444441;
+  }
+
+  .alerta {
+    background: #fff8e6;
+    border: 1px solid #f0dfae;
+  }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h1>Painel técnico — FIIs e FI-Infra</h1>
+<p class="sub">
+  06/10/2026 · Yahoo Finance → brapi fallback · indicadores calculados sobre fechamento ajustado
+</p>
+
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Ativo</th>
+<th>Tipo</th>
+<th>Data</th>
+<th>Preço</th>
+<th>Ret. 20d</th>
+<th>Ret. 60d</th>
+<th>RSI 14</th>
+<th>MM 9x21</th>
+<th>Preço&gt;MM21</th>
+<th>MACD</th>
+<th>Bollinger</th>
+<th>Vol. rel.</th>
+<th>Score</th>
+<th>Extensão</th>
+<th>Confiança</th>
+<th>Viés técnico</th>
+</tr>
+</thead>
+
+<tbody>
+<tr><td class="tk">JURO11</td><td><span class="tipo">FI-Infra</span></td><td>05/10/2026</td><td>R$ 98.27</td><td style="color:#27500A;">+2.43%</td><td style="color:#27500A;">+2.70%</td><td style="color:#444441;font-weight:500;">64.3</td><td>↑ sim</td><td>↑ sim</td><td>negativo</td><td>acima/superior</td><td style="font-weight:600;">1.42</td><td style="text-align:center;">+2</td><td>Bollinger superior</td><td style="color:#8A5A00;font-weight:600;">MODERADA</td><td><span class="pill" style="background:#EAF3DE;color:#27500A;">POSITIVO</span></td></tr><tr><td class="tk">KDIF11</td><td><span class="tipo">FI-Infra</span></td><td>05/10/2026</td><td>R$ 114.99</td><td style="color:#27500A;">+1.00%</td><td style="color:#791F1F;">-3.13%</td><td style="color:#444441;font-weight:500;">56.4</td><td>↑ sim</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:600;">1.35</td><td style="text-align:center;">+4</td><td>Bollinger superior</td><td style="color:#8A5A00;font-weight:600;">MODERADA</td><td><span class="pill" style="background:#DDEFD2;color:#1F4B0B;">FORTE POSITIVO</span></td></tr><tr><td class="tk">TRXF11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 70.42</td><td style="color:#791F1F;">-4.80%</td><td style="color:#791F1F;">-19.94%</td><td style="color:#444441;font-weight:500;">37.4</td><td>↓ não</td><td>↓ não</td><td>positivo</td><td>dentro</td><td style="font-weight:600;">1.48</td><td style="text-align:center;">-2</td><td>normal</td><td style="color:#8A5A00;font-weight:600;">MODERADA</td><td><span class="pill" style="background:#FCEBEB;color:#791F1F;">NEGATIVO</span></td></tr><tr><td class="tk">CPTS11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 7.67</td><td style="color:#27500A;">+3.51%</td><td style="color:#27500A;">+5.49%</td><td style="color:#791F1F;font-weight:500;">72.0</td><td>↑ sim</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:600;">1.25</td><td style="text-align:center;">+4</td><td>RSI sobrecomprado + Bollinger superior</td><td style="color:#185FA5;font-weight:600;">ALTA</td><td><span class="pill" style="background:#DDEFD2;color:#1F4B0B;">FORTE POSITIVO</span></td></tr><tr><td class="tk">PSEC11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 53.40</td><td style="color:#27500A;">+2.61%</td><td style="color:#791F1F;">-2.51%</td><td style="color:#444441;font-weight:500;">63.5</td><td>↓ não</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:600;">1.8</td><td style="text-align:center;">+2</td><td>Bollinger superior</td><td style="color:#8A5A00;font-weight:600;">MODERADA</td><td><span class="pill" style="background:#EAF3DE;color:#27500A;">POSITIVO</span></td></tr><tr><td class="tk">VILG11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 95.03</td><td style="color:#27500A;">+1.49%</td><td style="color:#27500A;">+1.97%</td><td style="color:#444441;font-weight:500;">68.7</td><td>↑ sim</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:600;">1.69</td><td style="text-align:center;">+4</td><td>Bollinger superior</td><td style="color:#185FA5;font-weight:600;">ALTA</td><td><span class="pill" style="background:#DDEFD2;color:#1F4B0B;">FORTE POSITIVO</span></td></tr><tr><td class="tk">XPCI11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 79.74</td><td style="color:#27500A;">+0.85%</td><td style="color:#791F1F;">-2.11%</td><td style="color:#444441;font-weight:500;">60.2</td><td>↑ sim</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:400;">0.9</td><td style="text-align:center;">+4</td><td>Bollinger superior</td><td style="color:#6B6A63;font-weight:600;">BAIXA</td><td><span class="pill" style="background:#DDEFD2;color:#1F4B0B;">FORTE POSITIVO</span></td></tr><tr><td class="tk">PVBI11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 67.00</td><td style="color:#791F1F;">-3.03%</td><td style="color:#791F1F;">-6.40%</td><td style="color:#444441;font-weight:500;">53.5</td><td>↓ não</td><td>↑ sim</td><td>positivo</td><td>dentro</td><td style="font-weight:600;">1.73</td><td style="text-align:center;">+0</td><td>normal</td><td style="color:#6B6A63;font-weight:600;">BAIXA</td><td><span class="pill" style="background:#F1EFE8;color:#444441;">NEUTRO</span></td></tr><tr><td class="tk">XPML11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 103.21</td><td style="color:#27500A;">+0.18%</td><td style="color:#791F1F;">-0.04%</td><td style="color:#444441;font-weight:500;">64.9</td><td>↓ não</td><td>↑ sim</td><td>positivo</td><td>dentro</td><td style="font-weight:400;">0.97</td><td style="text-align:center;">+2</td><td>normal</td><td style="color:#6B6A63;font-weight:600;">BAIXA</td><td><span class="pill" style="background:#EAF3DE;color:#27500A;">POSITIVO</span></td></tr><tr><td class="tk">RBRX11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 7.43</td><td style="color:#27500A;">+3.93%</td><td style="color:#791F1F;">-5.59%</td><td style="color:#444441;font-weight:500;">68.8</td><td>↑ sim</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:400;">1.1</td><td style="text-align:center;">+4</td><td>Bollinger superior</td><td style="color:#6B6A63;font-weight:600;">BAIXA</td><td><span class="pill" style="background:#DDEFD2;color:#1F4B0B;">FORTE POSITIVO</span></td></tr><tr><td class="tk">BRCR11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 42.20</td><td style="color:#791F1F;">-0.23%</td><td style="color:#27500A;">+5.48%</td><td style="color:#444441;font-weight:500;">60.0</td><td>↓ não</td><td>↑ sim</td><td>negativo</td><td>dentro</td><td style="font-weight:400;">1.19</td><td style="text-align:center;">-2</td><td>normal</td><td style="color:#6B6A63;font-weight:600;">BAIXA</td><td><span class="pill" style="background:#FCEBEB;color:#791F1F;">NEGATIVO</span></td></tr><tr><td class="tk">VISC11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 106.50</td><td style="color:#27500A;">+3.44%</td><td style="color:#27500A;">+3.31%</td><td style="color:#791F1F;font-weight:500;">71.1</td><td>↑ sim</td><td>↑ sim</td><td>positivo</td><td>acima/superior</td><td style="font-weight:600;">1.74</td><td style="text-align:center;">+4</td><td>RSI sobrecomprado + Bollinger superior</td><td style="color:#185FA5;font-weight:600;">ALTA</td><td><span class="pill" style="background:#DDEFD2;color:#1F4B0B;">FORTE POSITIVO</span></td></tr><tr><td class="tk">RBVA11</td><td><span class="tipo">FII</span></td><td>05/10/2026</td><td>R$ 8.78</td><td style="color:#27500A;">+1.36%</td><td style="color:#27500A;">+1.03%</td><td style="color:#444441;font-weight:500;">54.9</td><td>↑ sim</td><td>↑ sim</td><td>negativo</td><td>dentro</td><td style="font-weight:600;">1.57</td><td style="text-align:center;">+2</td><td>normal</td><td style="color:#8A5A00;font-weight:600;">MODERADA</td><td><span class="pill" style="background:#EAF3DE;color:#27500A;">POSITIVO</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="card">
+<h2>Como o viés técnico é calculado</h2>
+<p>
+O score direcional usa quatro condições: MM9×MM21, preço versus MM21,
+histograma do MACD e retorno de 20 pregões. Cada condição soma +1 ou −1.
+RSI e Bollinger aparecem separadamente como medidores de extensão:
+eles não transformam automaticamente uma tendência forte em venda nem
+uma queda forte em compra.
+</p>
+<ul>
+<li><strong>+3 a +4:</strong> forte positivo</li>
+<li><strong>+1 a +2:</strong> positivo</li>
+<li><strong>0:</strong> neutro</li>
+<li><strong>−1 a −2:</strong> negativo</li>
+<li><strong>−3 a −4:</strong> forte negativo</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Volume e confiança</h2>
+<p>
+O volume relativo compara o último pregão com a média dos 20 pregões
+anteriores. Volume elevado aumenta a confiança quando confirma a direção,
+mas não cria sozinho um sinal comprador ou vendedor.
+</p>
+</div>
+
+<div class="card alerta">
+<h2>Importante para FIIs</h2>
+<p>
+Este painel continua sendo técnico. Antes de qualquer decisão, cruze o
+resultado com fundamentos adequados à estratégia do fundo: P/VP,
+dividend yield sustentável, vacância, inadimplência, concentração,
+alavancagem, duration, indexadores, qualidade de crédito, emissões e gestão.
+FI-Infra deve ser analisado separadamente de FII imobiliário tradicional.
+</p>
+</div>
+
+</div>
+</body>
+</html>
