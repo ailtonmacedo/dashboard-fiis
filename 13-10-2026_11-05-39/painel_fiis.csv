@@ -1,0 +1,14 @@
+﻿Ativo,Tipo,Data,Fonte,Preço,Ret. 20d %,Ret. 60d %,RSI14,MM9>MM21,Preço>MM21,MACD,Bollinger,Vol. rel.,Score tendência,Viés técnico,Confiança,Extensão
+JURO11,FI-Infra,09/10/2026,Yahoo,99.79,4.07,4.67,68.9,sim,sim,positivo,dentro,1.18,4,FORTE POSITIVO,MODERADA,normal
+KDIF11,FI-Infra,09/10/2026,Yahoo,120.0,7.3,1.03,67.6,sim,sim,positivo,acima/superior,1.74,4,FORTE POSITIVO,ALTA,Bollinger superior
+TRXF11,FII,09/10/2026,Yahoo,71.9,-0.12,-18.66,46.5,não,sim,positivo,dentro,0.94,0,NEUTRO,BAIXA,normal
+CPTS11,FII,09/10/2026,Yahoo,7.93,7.02,8.47,77.9,sim,sim,positivo,acima/superior,0.99,4,FORTE POSITIVO,MODERADA,RSI sobrecomprado + Bollinger superior
+PSEC11,FII,09/10/2026,Yahoo,57.1,9.83,6.18,79.3,sim,sim,positivo,acima/superior,2.03,4,FORTE POSITIVO,ALTA,RSI sobrecomprado + Bollinger superior
+VILG11,FII,09/10/2026,Yahoo,101.49,9.93,10.82,75.4,sim,sim,positivo,acima/superior,1.07,4,FORTE POSITIVO,MODERADA,RSI sobrecomprado + Bollinger superior
+XPCI11,FII,09/10/2026,Yahoo,83.8,8.03,3.43,72.5,sim,sim,positivo,acima/superior,1.14,4,FORTE POSITIVO,MODERADA,RSI sobrecomprado + Bollinger superior
+PVBI11,FII,09/10/2026,Yahoo,72.53,5.86,1.39,72.2,sim,sim,positivo,acima/superior,1.59,4,FORTE POSITIVO,ALTA,RSI sobrecomprado + Bollinger superior
+XPML11,FII,09/10/2026,Yahoo,108.07,6.31,3.92,72.4,sim,sim,positivo,acima/superior,3.49,4,FORTE POSITIVO,ALTA,RSI sobrecomprado + Bollinger superior
+RBRX11,FII,09/10/2026,Yahoo,7.92,11.55,1.0,80.6,sim,sim,positivo,acima/superior,1.12,4,FORTE POSITIVO,MODERADA,RSI sobrecomprado + Bollinger superior
+BRCR11,FII,09/10/2026,Yahoo,44.57,7.15,11.94,74.2,sim,sim,positivo,acima/superior,0.88,4,FORTE POSITIVO,MODERADA,RSI sobrecomprado + Bollinger superior
+VISC11,FII,09/10/2026,Yahoo,114.0,9.64,9.96,82.5,sim,sim,positivo,acima/superior,0.87,4,FORTE POSITIVO,MODERADA,RSI sobrecomprado + Bollinger superior
+RBVA11,FII,09/10/2026,Yahoo,8.95,4.28,1.62,63.0,sim,sim,positivo,dentro,2.33,4,FORTE POSITIVO,ALTA,normal
