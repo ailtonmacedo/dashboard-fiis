@@ -1,0 +1,14 @@
+﻿Ativo,Tipo,Data,Fonte,Preço,Ret. 20d %,Ret. 60d %,RSI14,MM9>MM21,Preço>MM21,MACD,Bollinger,Vol. rel.,Score tendência,Viés técnico,Confiança,Extensão
+JURO11,FI-Infra,03/11/2026,Yahoo,89.9,-6.73,-4.08,26.2,não,não,negativo,abaixo/inferior,0.96,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido + Bollinger inferior
+KDIF11,FI-Infra,03/11/2026,Yahoo,104.9,-6.67,-6.7,31.0,não,não,negativo,dentro,0.73,-4,FORTE NEGATIVO,MODERADA,normal
+TRXF11,FII,03/11/2026,Yahoo,62.8,-10.69,-23.73,22.0,não,não,negativo,abaixo/inferior,1.09,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido + Bollinger inferior
+CPTS11,FII,03/11/2026,Yahoo,6.86,-8.22,-4.7,28.1,não,não,negativo,dentro,0.92,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido
+PSEC11,FII,03/11/2026,Yahoo,43.0,-17.34,-14.83,21.3,não,não,negativo,abaixo/inferior,0.76,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido + Bollinger inferior
+VILG11,FII,03/11/2026,Yahoo,86.19,-7.12,-3.76,34.1,não,não,negativo,dentro,0.74,-4,FORTE NEGATIVO,MODERADA,normal
+XPCI11,FII,03/11/2026,Yahoo,74.18,-4.96,-5.94,33.2,não,não,negativo,abaixo/inferior,1.42,-4,FORTE NEGATIVO,ALTA,Bollinger inferior
+PVBI11,FII,03/11/2026,Yahoo,56.3,-14.05,-13.09,27.2,não,não,negativo,abaixo/inferior,2.02,-4,FORTE NEGATIVO,ALTA,RSI sobrevendido + Bollinger inferior
+XPML11,FII,03/11/2026,Yahoo,94.15,-6.8,-7.29,27.0,não,não,negativo,abaixo/inferior,1.39,-4,FORTE NEGATIVO,ALTA,RSI sobrevendido + Bollinger inferior
+RBRX11,FII,03/11/2026,Yahoo,6.25,-14.08,-14.24,25.2,não,não,negativo,abaixo/inferior,1.57,-4,FORTE NEGATIVO,ALTA,RSI sobrevendido + Bollinger inferior
+BRCR11,FII,03/11/2026,Yahoo,37.62,-7.73,-3.34,30.1,não,não,negativo,abaixo/inferior,0.55,-4,FORTE NEGATIVO,MODERADA,Bollinger inferior
+VISC11,FII,03/11/2026,Yahoo,95.81,-9.19,-6.2,25.0,não,não,negativo,abaixo/inferior,0.84,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido + Bollinger inferior
+RBVA11,FII,03/11/2026,Yahoo,7.9,-8.88,-9.61,22.6,não,não,negativo,abaixo/inferior,1.16,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido + Bollinger inferior
