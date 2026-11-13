@@ -1,0 +1,14 @@
+﻿Ativo,Tipo,Data,Fonte,Preço,Ret. 20d %,Ret. 60d %,RSI14,MM9>MM21,Preço>MM21,MACD,Bollinger,Vol. rel.,Score tendência,Viés técnico,Confiança,Extensão
+JURO11,FI-Infra,12/11/2026,Yahoo,90.42,-8.94,-1.33,36.7,não,não,negativo,dentro,0.87,-4,FORTE NEGATIVO,MODERADA,normal
+KDIF11,FI-Infra,12/11/2026,Yahoo,105.5,-9.7,-2.16,40.6,não,não,negativo,dentro,0.44,-4,FORTE NEGATIVO,MODERADA,normal
+TRXF11,FII,12/11/2026,Yahoo,54.4,-23.27,-27.95,18.0,não,não,negativo,abaixo/inferior,1.76,-4,FORTE NEGATIVO,ALTA,RSI sobrevendido + Bollinger inferior
+CPTS11,FII,12/11/2026,Yahoo,6.79,-13.5,-4.77,31.2,não,não,negativo,dentro,0.88,-4,FORTE NEGATIVO,MODERADA,normal
+PSEC11,FII,12/11/2026,Yahoo,44.23,-20.12,-7.25,34.7,não,não,negativo,dentro,0.53,-4,FORTE NEGATIVO,MODERADA,normal
+VILG11,FII,12/11/2026,Yahoo,88.0,-9.43,2.54,41.7,não,não,negativo,dentro,0.67,-4,FORTE NEGATIVO,BAIXA,normal
+XPCI11,FII,12/11/2026,Yahoo,77.07,-4.38,4.21,48.6,não,não,negativo,dentro,0.84,-4,FORTE NEGATIVO,BAIXA,normal
+PVBI11,FII,12/11/2026,Yahoo,61.85,-14.0,-1.68,44.1,não,não,negativo,dentro,0.9,-4,FORTE NEGATIVO,MODERADA,normal
+XPML11,FII,12/11/2026,Yahoo,89.51,-15.06,-8.75,26.9,não,não,negativo,dentro,1.0,-4,FORTE NEGATIVO,MODERADA,RSI sobrevendido
+RBRX11,FII,12/11/2026,Yahoo,6.49,-15.38,-7.38,36.8,não,não,negativo,dentro,0.47,-4,FORTE NEGATIVO,MODERADA,normal
+BRCR11,FII,12/11/2026,Yahoo,39.05,-11.0,4.6,42.1,não,não,negativo,dentro,0.33,-4,FORTE NEGATIVO,BAIXA,normal
+VISC11,FII,12/11/2026,Yahoo,98.01,-12.91,-0.58,36.3,não,não,negativo,dentro,0.69,-4,FORTE NEGATIVO,MODERADA,normal
+RBVA11,FII,12/11/2026,Yahoo,7.89,-10.56,-6.41,34.8,não,não,negativo,dentro,0.65,-4,FORTE NEGATIVO,MODERADA,normal
